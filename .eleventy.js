@@ -4,6 +4,7 @@ module.exports = (eleventyConfig) => {
   return {
     dir: {
       output: "docs",
+      pathPrefix: "/mvb/",
     },
   };
 };
