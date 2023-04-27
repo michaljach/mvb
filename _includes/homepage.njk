@@ -20,9 +20,9 @@
         <ul>
           {%- for page in collections.page -%}
           <li>
-            <a class="footer-link" href="{{ page.url | url }}">{{
-              page.data.title
-            }}</a>
+            <a class="footer-link" href="{{ page.url | url }}">
+              {{ page.data.title }}
+            </a>
           </li>
           {%- endfor -%}
         </ul>
