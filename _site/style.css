@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 0.2rem;
+}
+
+h4 {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list {
+  width: 100%;
+  max-width: 540px;
+  margin: 3rem 1rem;
+}
+
+.page-title {
+  margin-bottom: 2rem;
+}
+
+.post {
+  width: 100%;
+  max-width: 540px;
+  margin: 3rem 1rem;
+}
+
+.post-title {
+  margin-top: 2rem;
+}
+
+.post-date {
+  color: #888;
+  margin-bottom: 1.8rem;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #888;
+}
