@@ -1,3 +1,3 @@
 ---
-title: Michael Jach
+title: Minimum Viable Blog
 ---
