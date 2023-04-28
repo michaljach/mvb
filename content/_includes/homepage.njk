@@ -10,9 +10,10 @@
     <main class="list">
       <h1 class="page-title">{{ title }}</h1>
       <ul>
-        {%- for post in collections.post -%}
+        {%- for post in collections.post | reverse -%}
         <li>
           <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+          <span class="post-date">— {{ page.date.toLocaleDateString() }}</span>
         </li>
         {%- endfor -%}
       </ul>
