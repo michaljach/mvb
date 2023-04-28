@@ -1,7 +1,6 @@
 ---
 title: About
 tags: page
-layout: page.njk
 ---
 
 We will define one person of compute as 20 PFLOPS (64 A100s, or a single dense 42U A100 rack). We are in the era of the 1 rack person, consuming about 30kW to provide those 20 PFLOPS.

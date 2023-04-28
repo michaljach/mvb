@@ -5,6 +5,7 @@ body {
   font-size: 14px;
   display: flex;
   justify-content: center;
+  line-height: 1.2rem;
 }
 
 a {
@@ -14,12 +15,25 @@ a {
 
 h1 {
   font-size: 20px;
+  font-weight: 500;
   margin-bottom: 0.2rem;
 }
 
 h4 {
   font-size: 12px;
+  font-weight: 500;
   margin-top: 0;
+}
+
+code {
+  background: #f0f0f0;
+  padding: 2px 4px;
+}
+
+blockquote {
+  margin: 0;
+  padding: 4px 16px;
+  background: #f0f0f0;
 }
 
 ul {
@@ -38,7 +52,8 @@ ul {
   margin-bottom: 2rem;
 }
 
-.post {
+.post,
+.page {
   width: 100%;
   max-width: 540px;
   margin: 3rem 1rem;

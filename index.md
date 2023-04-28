@@ -1,4 +1,4 @@
 ---
-title: Michael Jach — Blog
+title: Michael Jach
 layout: homepage.njk
 ---

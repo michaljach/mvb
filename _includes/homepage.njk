@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ '/style.css' | url }}" />
-    <title>{{ title }}</title>
+    <title>{{ title }} - Blog</title>
   </head>
   <body>
     <main class="list">
-      <h1 class="page-title">Michael Jach</h1>
+      <h1 class="page-title">{{ title }}</h1>
       <ul>
         {%- for post in collections.post -%}
         <li>
