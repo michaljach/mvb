@@ -3,7 +3,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("content/assets/");
 
   return {
-    pathPrefix: "/mvb/",
+    // Change this if your blog lives in subdirectory
+    pathPrefix: "/",
     dir: {
       input: "content",
     },
