@@ -8,10 +8,11 @@
   </head>
   <body>
     <main class="post">
+      {{ data }}
       <nav><a href="{{ '/' | url }}">&larr; Home</a></nav>
       <article>
         <h1 class="post-title">{{ title }}</h1>
-        <h4 class="post-date">{{ page.date.toUTCString() }}</h4>
+        <h4 class="post-date">{{ page.date.toLocaleDateString() }}</h4>
         {{ content | safe }}
       </article>
     </main>
