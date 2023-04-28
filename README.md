@@ -5,7 +5,7 @@ Minimum Viable Blog
 This is MVB template.
 
 ### Demo
-https://michaljach.github.io/mvb/
+https://jach.me
 
 ### Create your MVB blog:
 
