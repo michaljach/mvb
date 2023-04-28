@@ -37,19 +37,23 @@ blockquote {
 }
 
 ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-li {
-  margin: 0.4rem 0;
+  padding: 0 1rem;
 }
 
 .list {
   width: 100%;
   max-width: 540px;
   margin: 3rem 1rem;
+}
+
+.list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list li {
+  margin: 0.4rem 0;
 }
 
 .page-title {
